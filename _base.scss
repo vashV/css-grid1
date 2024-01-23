@@ -1,0 +1,25 @@
+//fonts
+@import url(https://fonts.googleapis.com/css?family=Lobster|Open+Sans);
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 10px; //easier rem calc...
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+  font-size: 1.6rem;
+}
+h1 {
+  font-family: Lobster;
+  font-size: 5rem;
+}
